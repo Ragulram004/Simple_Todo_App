@@ -13,7 +13,7 @@ const Todo = ({task,deleteTodo,editTodo}) => {
         <BsFillTrashFill className='text-xl ml-3' onClick={() => deleteTodo(task.id)} />
       </div>
     </div>
-  )
+  )     
 }
 
 export default Todo
